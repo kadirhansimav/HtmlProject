@@ -177,7 +177,7 @@ $(document).ready(function () {
     $("#subbutton").click(function () { 
       
          
-          // Checking for blank fields.
+        
           if ($("#form-name").val() == '' || $("#form-email").val() == '' || $("#form-city") == '' || $("#textarea").val() == '') {
             alert("Please Fill Required Fields");
           } else {
