@@ -30,8 +30,7 @@ li a {
        /*this code for images size  */
     width: 900px;
     height: 600px;
-   
-    align-items: center;
+      align-items: center;
 }
 h1{
      /*this code for h1  */
@@ -80,6 +79,11 @@ h1{
     margin-left: 600px;
     
 }
+#form-city{
+      /*this code for table from contact  */
+    width: 240px;
+    height: 25px;
+}
 #form-name{
       /*this code for table from contact  */
     width: 240px;
@@ -105,6 +109,14 @@ h1{
 
 #main-text{
 font-size: 50PX;
-margin-bottom: 650px;
+margin-bottom: 100px;
 }
  
+.fotorama{
+    margin-left: 450px;
+    margin-right: 200px;
+    margin-bottom: 100px;
+}
+body{
+    background-color: #B6CAE3;
+}

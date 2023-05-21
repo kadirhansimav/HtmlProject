@@ -1,47 +1,74 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <!--This code connect the css code-->
-        <link rel="stylesheet" href="beautiy.css">
-         
-    </head>
-    <body>
-         <!--This code for navigation bar-->
-        <div id="page">
-            <div id="navmenu">
-               <ul id="navmenu">
-                 <!--This code is list and  connect the other pages-->
-                 <li id="li1"><a href="index.html">Main Page</a></li> 
-                 <li id="li1"><a href="aboutus.html">About Us</a> </li>  
-                 <li id="li1"><a href="music.html">Our Music</a></li>  
-                 <li id="li1"><a href="contact.html">Contact Us</a></li>
-               </ul>
-                 
-      
-            </div>
-        <div id="content">
-            <h1>Welcome To Kırmızı Reçete </h1>
-            <img class="images" src="\HtmlProject\Pictures\IMG_5846.JPG" alt="Kırmızı Reçete">
-            <p id="main-text"> We Compose Your Life. </p>
+
+<head>
+    <!--This code connect the css code-->
+    <link rel="stylesheet" href="jquery-ui.css">
+    <link rel="stylesheet" href="beautiy.css">
+    <link rel="stylesheet" href="fancyMessenger/jquery.fancyMessenger.min.css">
+    <link rel="stylesheet" href="evoCalender/evo-calendar.css">
+    <link rel="stylesheet" href="evoCalender/evo-calendar.midnight-blue.css">
+    <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+     
+    
+   <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="script.js"></script>
+    <script src="jquery-ui.js"></script>
+    <script src="evoCalender/evo-calendar.js" ></script>
+    <script src="fancyMessenger/jquery.fancyMessenger.min.js" ></script>
+
+</head>
+
+<body>
+    <!--This code for navigation bar-->
+    <div id="page">
+        <div id="navmenu">
+            <ul id="navmenu">
+                <!--This code is list and  connect the other pages-->
+                <li id="li1"><a href="index.html">Main Page</a></li>
+                <li id="li1"><a href="aboutus.html">About Us</a> </li>
+                <li id="li1"><a href="music.html">Our Music</a></li>
+                <li id="li1"><a href="contact.html">Contact Us</a></li>
+            </ul>
 
 
         </div>
+        <div id="dialog" title="Follow Us!">
+            <p>Don't forget follow us. <br> WE LOVE YOU!</p>
+        </div>
+        <div id="content">
+            <h1>Welcome To Kırmızı Reçete </h1>
+            <img class="images" src="Pictures/IMG_5684.JPG" alt="Kırmızı Reçete">
+            <p id="main-text"> We Compose Your Life. </p> <br>
+            <h1 style="color: rgb(39, 96, 202);">Events Date</h1>
+        </div>
+
+        <div id="evoCalendar"></div>
+
+
 
         <div id="footer">
             <!--Spotify give this code-->
-            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/66RItdGBQMvACviJ8oigL2?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-            
-             <!--This code is footer for social media and rights-->
-            <a id="instabutton" href="https://www.instagram.com/kirmizireceteofficial/?hl=tr&ysclid=lfvxl00uuk336935751" role="button"> Instagram </a> |
+            <iframe style="border-radius:12px"
+                src="https://open.spotify.com/embed/artist/66RItdGBQMvACviJ8oigL2?utm_source=generator" width="100%"
+                height="152" frameBorder="0" allowfullscreen=""
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                loading="lazy"></iframe>
+
+            <!--This code is footer for social media and rights-->
+            <a id="instabutton" href="https://www.instagram.com/kirmizireceteofficial/?hl=tr&ysclid=lfvxl00uuk336935751"
+                role="button"> Instagram </a> |
             <a id="youbutton" href="https://www.youtube.com/@krmzrecete9989" role="button"> Youtube </a>|
-            <a id="spobutton" href="https://open.spotify.com/artist/66RItdGBQMvACviJ8oigL2?si=yx3dXcFlTFGxfmLqtakrgg" role="button"> Spotify</a>
+            <a id="spobutton" href="https://open.spotify.com/artist/66RItdGBQMvACviJ8oigL2?si=yx3dXcFlTFGxfmLqtakrgg"
+                role="button"> Spotify</a>
             <p class="text-footer">© 2023 Kadirhan Simav. All rights reserved.</p>
         </div>
 
 
 
-           
-        </div>
-        
-    </body>
+
+    </div>
+
+</body>
+
 </html>

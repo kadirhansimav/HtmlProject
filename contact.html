@@ -1,37 +1,64 @@
 <!DOCTYPE html>
 <html>
-    <head>
-       <!--This code connect the css code-->
-        <link rel="stylesheet" href="beautiy.css">
-         
-    </head>
-    <body>
-         <!--This code for navigation bar-->
-        <div id="page">
-            <div id="navmenu">
-               <ul id="navmenu">
-                 <!--This code is list and  connect the other pages-->
-                <li id="li1"><a href="index.html">Main Page</a></li> 
-                <li id="li1"><a href="aboutus.html">About Us</a> </li>  
-                <li id="li1"><a href="music.html">Our Music</a></li>  
-                <li id="li1"><a href="contact.html">Contact Us</a></li>
-               </ul>
-                 
-      
-            </div>
-        <div id="contentContact">
-            
-             <!--This code is a table. It table have form and look better than only form-->
-            <form>
-                <table id="table" border="2"  >
 
-                    <tr><td> Name Surname:</td> <td><input id="form-name" type="text"> </td></tr>
-                    <tr><td>Email:</td> <td> <input id="form-email" type="text"></td></td></tr>
-                    <tr><td>Message:</td><td> <textarea name="textarea" id="teaxtarea" cols="30" rows="10"></textarea> </td></tr>
-                   
+<head>
+    <!--This code connect the css code-->
+    <link rel="stylesheet" href="jquery-ui.css">
+    <link rel="stylesheet" href="beautiy.css">
+    <link rel="stylesheet" href="fancyMessenger/jquery.fancyMessenger.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="script.js"></script>
+    <script src="jquery-ui.js"></script>
+    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="fancyMessenger/jquery.fancyMessenger.min.js"></script>
+    <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+    <!--This code for navigation bar-->
+    <div id="page">
+        <div id="navmenu">
+            <ul id="navmenu">
+                <!--This code is list and  connect the other pages-->
+                <li id="li1"><a href="index.html">Main Page</a></li>
+                <li id="li1"><a href="aboutus.html">About Us</a> </li>
+                <li id="li1"><a href="music.html">Our Music</a></li>
+                <li id="li1"><a href="contact.html">Contact Us</a></li>
+            </ul>
+
+
+
+        </div>
+
+
+        <div id="contentContact">
+
+            <!--This code is a table. It table have form and look better than only form-->
+            <form>
+                <table id="table" border="2">
+
+                    <tr>
+                        <td> <label for="">Name Surname:</label> </td>
+                        <td><input id="form-name" type="text"> </td>
+                    </tr>
+                    <tr>
+                        <td><label for="form-city"> City:</label></td>
+                        <td><input id="form-city" type="text"> </td>
+                    </tr>
+                    <tr>
+                        <td> <label for=""> Email:</label></td>
+                        <td> <input id="form-email" type="text"></td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> <label for=""> Message:</label></td>
+                        <td> <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea> </td>
+                    </tr>
+
 
                 </table>
-                 <!--This code is submit button-->
+                <!--This code is submit button-->
                 <input id="subbutton" type="submit">
 
 
@@ -41,19 +68,26 @@
 
         <div id="footer">
             <!--Spotify give this code-->
-            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/66RItdGBQMvACviJ8oigL2?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-            
-             <!--This code is footer for social media and rights-->
-            <a id="instabutton" href="https://www.instagram.com/kirmizireceteofficial/?hl=tr&ysclid=lfvxl00uuk336935751" role="button"> Instagram </a> |
+            <iframe style="border-radius:12px"
+                src="https://open.spotify.com/embed/artist/66RItdGBQMvACviJ8oigL2?utm_source=generator" width="100%"
+                height="152" frameBorder="0" allowfullscreen=""
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                loading="lazy"></iframe>
+
+            <!--This code is footer for social media and rights-->
+            <a id="instabutton" href="https://www.instagram.com/kirmizireceteofficial/?hl=tr&ysclid=lfvxl00uuk336935751"
+                role="button"> Instagram </a> |
             <a id="youbutton" href="https://www.youtube.com/@krmzrecete9989" role="button"> Youtube </a>|
-            <a id="spobutton" href="https://open.spotify.com/artist/66RItdGBQMvACviJ8oigL2?si=yx3dXcFlTFGxfmLqtakrgg" role="button"> Spotify</a>
+            <a id="spobutton" href="https://open.spotify.com/artist/66RItdGBQMvACviJ8oigL2?si=yx3dXcFlTFGxfmLqtakrgg"
+                role="button"> Spotify</a>
             <p class="text-footer">© 2023 Kadirhan Simav. All rights reserved.</p>
         </div>
 
 
 
-           
-        </div>
-        
-    </body>
+
+    </div>
+
+</body>
+
 </html>
