@@ -1,4 +1,4 @@
-
+var temp = 0;
 var city = [
 
     "ADANA",
@@ -114,7 +114,7 @@ $(document).ready(function () {
             everyYear: true,
             color: "#222"
         },
-       
+
 
     ];
 
@@ -123,14 +123,12 @@ $(document).ready(function () {
         calendarEvents: myEvents,
         theme: 'Midnight Blue'
     });
+    const data = null;
+    
+
 
     $("#evoCalendar").evoCalendar('addCalendarEvent', [
-        {
-            name: "ANKARA CONCERT",
-            date: "May/16/2023",
-            type: "event",
-            everyYear: true
-        },
+       
         {
             name: "ANTALYA CONCERT",
             date: "May/27/2023",
@@ -162,29 +160,30 @@ $(document).ready(function () {
 
 });
 
+
 $(document).ready(function () {
 
-$.fancyMessenger({
-    onSend:function(obj){
-      // Send your message here.
-      console.log($(obj).find("textarea").val());
-    }
-  });
+    $.fancyMessenger({
+        onSend: function (obj) {
+            // Send your message here.
+            console.log($(obj).find("textarea").val());
+        }
+    });
 });
 
 $(document).ready(function () {
 
-    $("#subbutton").click(function () { 
-      
-         
-        
-          if ($("#form-name").val() == '' || $("#form-email").val() == '' || $("#form-city") == '' || $("#textarea").val() == '') {
-            alert("Please Fill Required Fields");
-          } else {
-      
-           alert("Your message has been sent successfully.");
-          }
-        });
-    });
+    $("#subbutton").click(function () {
 
-    
+
+
+        if ($("#form-name").val() == '' || $("#form-email").val() == '' || $("#form-city") == '' || $("#textarea").val() == '') {
+            alert("Please Fill Required Fields");
+        } else {
+
+            alert("Your message has been sent successfully.");
+        }
+    });
+});
+
+

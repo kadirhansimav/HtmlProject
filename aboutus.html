@@ -9,19 +9,18 @@
   <link rel="stylesheet" href="fancyMessenger/jquery.fancyMessenger.min.css">
   <script src="jquery-1.10.2.min.js"></script>
   <script src="fotoroma/fotorama.js"></script>
-  
-  <script src="jquery-3.6.0.js"></script>
-  <script src="script.js"></script>
 
+
+  <script src="jquery-3.6.0.js"></script>
+  <script src="aboutScript.js"></script>
   <script src="jquery-ui.js"></script>
-  <script src="fancyMessenger/jquery.fancyMessenger.min.js" ></script>
+  <script src="fancyMessenger/jquery.fancyMessenger.min.js"></script>
 
 </head>
 
-<body>
-  <!--This code for navigation bar-->
-  <div id="page">
-    <div id="navmenu">
+<header>
+  <div id="navmenu">
+    <nav>
       <ul id="navmenu">
         <!--This code is list and  connect the other pages-->
         <li id="li1"><a href="index.html">Main Page</a></li>
@@ -29,11 +28,29 @@
         <li id="li1"><a href="music.html">Our Music</a></li>
         <li id="li1"><a href="contact.html">Contact Us</a></li>
       </ul>
+    </nav>
 
+  </div>
+
+</header>
+
+<body>
+  <main>
+    <div id="singer">
+      <a id="sing" title="kadirhan" href="#">Kadirhan Simav</a>
+      <a id="sing" title="deniz" href="# ">Deniz Can Baş</a>
+      <a id="sing" title="yiğit" href="#">Yiğit Kantarcı</a>
+      <a id="sing" title="buğra" href="#">Buğra İnal</a>
 
     </div>
-    <div id="content">
+
+    <div id="page">
+
       <h1>Kırmızı Reçete </h1>
+
+      <h2></h2>
+
+
 
       <p id="aboutContext">Kırmızı Reçete started its musical adventure by releasing their first song ‘Koliba' in
         September of 2019 in line with the band's vocalist Kadirhan Simav and guitarist Deniz Can Baş's wishes to make
@@ -44,8 +61,13 @@
         produced. 'Ölmeli Zaman', which the band revealed shortly after starting work, was shared in June 2020. In
         addition, the Kırmızı Reçete considers it closer to them to work in different styles in the direction they feel,
         rather than adhering to a fixed style or sensation in a musical sense.</p>
-      <div  class="fotorama" data-width="900" data-ratio="900/600" data-max-width="100%"  data-autoplay="3000" >
-        
+
+      <img id="image" width="800" src="">
+
+
+
+      <div class="fotorama" data-width="900" data-ratio="900/600" data-max-width="100%" data-autoplay="3000">
+
         <img src="Pictures/IMG_5684.JPG">
         <img src="Pictures/IMG_5846.JPG">
         <img src="Pictures/kırmızı.jpeg">
@@ -57,7 +79,8 @@
       </div>
 
     </div>
-
+  </main>
+  <footer>
     <div id="footer">
       <!--Spotify give this code-->
       <iframe style="border-radius:12px"
@@ -73,12 +96,8 @@
         role="button"> Spotify</a>
       <p class="text-footer">© 2023 Kadirhan Simav. All rights reserved.</p>
     </div>
-
-
-
-
+  </footer>
   </div>
-
 </body>
 
 </html>

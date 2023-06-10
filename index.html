@@ -9,66 +9,78 @@
     <link rel="stylesheet" href="evoCalender/evo-calendar.css">
     <link rel="stylesheet" href="evoCalender/evo-calendar.midnight-blue.css">
 
-     
-    
-   <script src="jquery-3.6.0.js"></script>
+
+
+    <script src="jquery-3.6.0.js"></script>
     <script src="script.js"></script>
+   
     <script src="jquery-ui.js"></script>
-    <script src="evoCalender/evo-calendar.js" ></script>
-    <script src="fancyMessenger/jquery.fancyMessenger.min.js" ></script>
-
+    <script src="evoCalender/evo-calendar.js"></script>
+    <script src="fancyMessenger/jquery.fancyMessenger.min.js"></script>
+ <script src="press.js"></script>
 </head>
-
-<body>
-    <!--This code for navigation bar-->
-    <div id="page">
-        <div id="navmenu">
+<header>
+    <div id="navmenu">
+        <nav>
             <ul id="navmenu">
-                <!--This code is list and  connect the other pages-->
-                <li id="li1"><a href="index.html">Main Page</a></li>
-                <li id="li1"><a href="aboutus.html">About Us</a> </li>
-                <li id="li1"><a href="music.html">Our Music</a></li>
-                <li id="li1"><a href="contact.html">Contact Us</a></li>
-            </ul>
+            <li id="li1"><a href="index.html">Main Page</a></li>
+            <li id="li1"><a href="aboutus.html">About Us</a> </li>
+            <li id="li1"><a href="music.html">Our Music</a></li>
+            <li id="li1"><a href="contact.html">Contact Us</a></li>
+        </ul>
 
-
-        </div>
-        <div id="dialog" title="Follow Us!">
-            <p>Don't forget follow us. <br> WE LOVE YOU!</p>
-        </div>
-        <div id="content">
-            <h1>Welcome To Kırmızı Reçete </h1>
-            <img class="images" src="Pictures/IMG_5684.JPG" alt="Kırmızı Reçete">
-            <p id="main-text"> We Compose Your Life. </p> <br>
-            <h1 style="color: rgb(39, 96, 202);">Events Date</h1>
-        </div>
-
-        <div id="evoCalendar"></div>
-
-
-
-        <div id="footer">
-            <!--Spotify give this code-->
-            <iframe style="border-radius:12px"
-                src="https://open.spotify.com/embed/artist/66RItdGBQMvACviJ8oigL2?utm_source=generator" width="100%"
-                height="152" frameBorder="0" allowfullscreen=""
-                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                loading="lazy"></iframe>
-
-            <!--This code is footer for social media and rights-->
-            <a id="instabutton" href="https://www.instagram.com/kirmizireceteofficial/?hl=tr&ysclid=lfvxl00uuk336935751"
-                role="button"> Instagram </a> |
-            <a id="youbutton" href="https://www.youtube.com/@krmzrecete9989" role="button"> Youtube </a>|
-            <a id="spobutton" href="https://open.spotify.com/artist/66RItdGBQMvACviJ8oigL2?si=yx3dXcFlTFGxfmLqtakrgg"
-                role="button"> Spotify</a>
-            <p class="text-footer">© 2023 Kadirhan Simav. All rights reserved.</p>
-        </div>
-
-
-
+        </nav>
+        
 
     </div>
 
-</body>
+</header>
+<main>
+
+    <body>
+        <!--This code for navigation bar-->
+        <div id="page">
+            <div id="dialog" title="Follow Us!">
+                <p>Don't forget follow us. <br> WE LOVE YOU!</p>
+            </div>
+            <div id="content">
+                <h1>Welcome To Kırmızı Reçete </h1>
+                <img class="images" src="Pictures/IMG_5684.JPG" alt="Kırmızı Reçete">
+                <p id="main-text"> We Compose Your Life. </p> <br>
+                <h1 style="color: rgb(39, 96, 202);">Events Date</h1>
+                <h2 style="color: rgb(15, 56, 133);" id="temperature">...</h2>
+
+            </div>
+
+            <div id="evoCalendar"></div>
+
+
+        </div>
+
+    </body>
+
+</main>
+
+<footer>
+    <div id="footer">
+        <!--Spotify give this code-->
+        <iframe style="border-radius:12px"
+            src="https://open.spotify.com/embed/artist/66RItdGBQMvACviJ8oigL2?utm_source=generator" width="100%"
+            height="152" frameBorder="0" allowfullscreen=""
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+        <!--This code is footer for social media and rights-->
+        <a id="instabutton" href="https://www.instagram.com/kirmizireceteofficial/?hl=tr&ysclid=lfvxl00uuk336935751"
+            role="button"> Instagram </a> |
+        <a id="youbutton" href="https://www.youtube.com/@krmzrecete9989" role="button"> Youtube </a>|
+        <a id="spobutton" href="https://open.spotify.com/artist/66RItdGBQMvACviJ8oigL2?si=yx3dXcFlTFGxfmLqtakrgg"
+            role="button"> Spotify</a>
+        <p class="text-footer">© 2023 Kadirhan Simav. All rights reserved.</p>
+    </div>
+
+
+
+</footer>
+
 
 </html>
