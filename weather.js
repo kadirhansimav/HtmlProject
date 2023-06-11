@@ -1,6 +1,3 @@
-
-
-
 const xhr = new XMLHttpRequest();
 xhr.withCredentials = true;
 
@@ -10,9 +7,8 @@ xhr.addEventListener('readystatechange', function () {
 
         // Parsing the response text
         const response = JSON.parse(this.responseText);
-        console.log(response);  // Parsed response object
-        console.log(response["current"]["temp_c"]);  // Example of accessing a nested value
-        const temp ="Istanbul(Europe) is "+ response["current"]["temp_c"].toString() + " degrees Celsius now. Be careful your health!" ;
+
+        const temp = "Istanbul(Europe) is " + response["current"]["temp_c"].toString() + " degrees Celsius now. Be careful your health!";
 
         // Updating the h2 element
         document.getElementById("temperature").textContent = temp;
